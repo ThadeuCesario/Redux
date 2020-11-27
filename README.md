@@ -40,3 +40,11 @@ Mas então como sei quando a informação foi atualizada? <br/><br/>
 Bem simples! Vamos utilizar <code>connect</code>. Isso, basicamente vamos estabelecer uma conexão com o componente que queremos e o Redux. <br/>
 Dessa forma, assim que o estado for atualizado o componente será automaticamente recarregado.  :) 
 </strong>
+<br/><br/>
+<h2>Middlewares</h2>
+<p>
+Middlewares são interceptadores das <code>Actions</code>, para que possamos realizar uma ação externa.
+Após essa ação externa finalizar (por exemplo, checar o estoque) é passado para o <strong>Reducer</strong>.
+<br/>
+<strong>Nesse momento que trabalhamos com os middlewares, entramos com o Redux Saga.</strong>
+</p>
