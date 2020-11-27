@@ -25,3 +25,10 @@ Com a <code>Action</code> criada, podemos coletar informações como:
 </ul>
 E com essa informações, vamos enviar para o <code>Reducer</code>.
 </p>
+
+<h2>Reducer</h2>
+<p>
+  Os dados coletados pelas <strong>actions</strong>, são enviados para o <strong>reducer</strong>.
+  <br /><br />
+  No <code>Reducer</code> é onde encontramos nosso estado global. Então, basicamente o <code>reducer</code> escutará as <code>Actions</code> e mudará o estado necessário.
+</p>
