@@ -32,3 +32,11 @@ E com essa informações, vamos enviar para o <code>Reducer</code>.
   <br /><br />
   No <code>Reducer</code> é onde encontramos nosso estado global. Então, basicamente o <code>reducer</code> escutará as <code>Actions</code> e mudará o estado necessário.
 </p>
+<br /><br />
+<strong>
+As ações no Redux são unidirecionais. Isso quer dizer que não conseguimos colocar um <code>await</code>, na <code>Action</code> para aguardar o processo finalizar. 
+<br/><br/>
+Mas então como sei quando a informação foi atualizada? <br/><br/>
+Bem simples! Vamos utilizar <code>connect</code>. Isso, basicamente vamos estabelecer uma conexão com o componente que queremos e o Redux. <br/>
+Dessa forma, assim que o estado for atualizado o componente será automaticamente recarregado.  :) 
+</strong>
