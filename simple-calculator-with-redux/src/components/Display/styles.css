@@ -1,0 +1,15 @@
+.display {
+  background-color: #000;
+  height: 100px;
+  width: auto;
+  min-width: 200px;
+  border-radius: 30px;
+  font-size: 30px;
+  color: #00ff41;
+  font-family: 'Source Code Pro', monospace;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,12 @@
+.container-result {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1A0B21;
+  color: #fff;
+  font-family: 'Arvo', sans-serif;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+}
